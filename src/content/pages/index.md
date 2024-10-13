@@ -1,5 +1,5 @@
 ---
-title: "mor"
+title: "Homepage"
 description: "indy dev and builder of things"
 created: "2024-10-13"
 updated: "2024-10-13"
