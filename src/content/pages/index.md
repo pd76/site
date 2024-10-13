@@ -4,9 +4,8 @@ description: "indy dev and builder of things"
 created: "2024-03-09"
 updated: "2024-03-09"
 ---
-# mør, call me morgan
-
-indy developer, and builder of things. created [rhizoma](https://rhizoma.cc) and [essens](https://essens.cc).
+# Patrick Dinegan
+I'm an aspiring generalist in the field of computer science, with a particular focus on designing and implementing secure, resilient, and privacy-centric communication systems. My work explores how technological advancements shape and are shaped by society.
 
 ## explore
 - [now](/now)
