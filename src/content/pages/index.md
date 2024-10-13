@@ -10,12 +10,6 @@ I'm an aspiring generalist in the field of computer science, with a particular f
 
 This space serves as my personal research journal, where I document my insights, experiments, and ongoing projects in the realm of computer science and its societal impacts. For a more comprehensive view of my work and thoughts, please visit [/journal](/journal), where you'll find my research notes, project updates, and reflections on the ever-evolving landscape of technology and its influence on our lives.
 
-## explore
-- [now](/now)
-- [journal](/journal)
-- [about](/about)
-- [uses](/uses)
-
 ## contact
 - [posts.cv](https://posts.cv/mor)
 - [email](mailto:mor@essens.dev)
