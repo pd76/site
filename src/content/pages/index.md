@@ -1,8 +1,8 @@
 ---
 title: "mor"
 description: "indy dev and builder of things"
-created: "2024-03-09"
-updated: "2024-03-09"
+created: "2024-10-13"
+updated: "2024-10-13"
 ---
 # Patrick Dinegan
 I'm an aspiring generalist in the field of computer science, with a particular focus on designing and implementing secure, resilient, and privacy-centric communication systems. My work explores how technological advancements shape and are shaped by society.
