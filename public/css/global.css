@@ -106,7 +106,6 @@ h5 {
   font-weight: 550;
   font-size: var(--font-size-m);
   margin: 0;
-  text-transform: lowercase;
 }
 
 p,
@@ -246,7 +245,7 @@ header {
   h1 {
     width: fit-content;
     font-weight: 400;
-    text-transform: lowercase;
+    font-size: 1.8em;
   }
 
   p {
@@ -306,44 +305,4 @@ td {
 /* Alternating Row Colors */
 tbody tr:nth-child(even) {
   background-color: rgba(128, 128, 128, 0.1); /* Slightly lighter than --dark */
-}
-
-/* Hover Effect */
-tbody tr:hover {
-  background-color: var(--neutral);
-  transition: background-color 0.3s ease;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 600px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
-  
-  thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  
-  tr {
-    margin-bottom: 15px;
-  }
-  
-  td {
-    border: none;
-    position: relative;
-    padding-left: 50%;
-  }
-  
-  td:before {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
-    content: attr(data-label);
-    font-weight: bold;
-  }
 }
