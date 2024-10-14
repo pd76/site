@@ -13,7 +13,7 @@ Here's a demo markdown text showcasing various elements, using a story about spa
 
 ## Introduction
 
-As humanity looks to the stars, we find ourselves on the brink of a new era in space exploration. From the first steps on the Moon to the possibility of colonizing Mars, our journey through the cosmos continues to inspire and challenge us.
+As humanity looks to the stars, we find [ourselves](/journal) on the [brink](https://example.com) of a new era in space exploration. From the first steps on the Moon to the possibility of colonizing Mars, our journey through the cosmos continues to inspire and challenge us.
 
 ### The Early Days
 
@@ -65,7 +65,7 @@ print(f"The distance between Earth and Mars is approximately {distance:.2f} AU")
 
 ## Future Prospects
 
-The future of space exploration is bright, with ambitious plans including:
+The future of space exploration[^1] is bright, with ambitious plans including:
 
 - Lunar Gateway
 - Artemis Program
@@ -79,7 +79,7 @@ The future of space exploration is bright, with ambitious plans including:
 
 ### The Search for Extraterrestrial Life
 
-One of the most exciting aspects of space exploration is the potential to discover life beyond Earth. This search is guided by the Drake Equation:
+One of the most exciting aspects[^2] of space exploration is the potential to discover life beyond Earth. This search is guided by the Drake Equation:
 ```python
 $$N = R_* \cdot f_p \cdot n_e \cdot f_l \cdot f_i \cdot f_c \cdot L$$
 
@@ -100,3 +100,6 @@ As we continue to explore the cosmos, we're not just reaching for the stars - we
 ---
 
 *"The Earth is the cradle of humanity, but mankind cannot stay in the cradle forever."* - Konstantin Tsiolkovsky
+
+[^1]: Hello world, this is a footnote!
+[^2]: Here's another footnote, yay
