@@ -274,3 +274,76 @@ header {
 ul {
   list-style-type: none
 }
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--dark);
+  color: var(--light);
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-normal);
+}
+
+/* Table Header */
+thead {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid var(--light);
+  font-weight: bold;
+}
+
+/* Table Body */
+td {
+  padding: 10px;
+  border: 1px solid var(--light);
+}
+
+/* Alternating Row Colors */
+tbody tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.1); /* Slightly lighter than --dark */
+}
+
+/* Hover Effect */
+tbody tr:hover {
+  background-color: var(--neutral);
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr {
+    margin-bottom: 15px;
+  }
+  
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+  }
+  
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-label);
+    font-weight: bold;
+  }
+}
