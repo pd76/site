@@ -127,6 +127,11 @@ a {
   }
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -135,6 +140,7 @@ article {
 
   img {
     width: 100%;
+    height: auto;
   }
 
   blockquote {
