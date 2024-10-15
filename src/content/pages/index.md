@@ -5,8 +5,6 @@ created: "2024-10-13"
 updated: "2024-10-13"
 ---
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1127.5282472653755 190.483003403574" width="1127.5282472653755" height="190.483003403574" filter="invert(93%) hue-rotate(180deg)">
-  <!-- svg-source:excalidraw -->
-  
   <defs>
     <style class="style-fonts">
       @font-face {
