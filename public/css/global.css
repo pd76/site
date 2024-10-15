@@ -207,6 +207,10 @@ pre {
   padding: 0.5rem;
 }
 
+svg {
+  z-index: -1;
+}
+
 .paginator {
   padding-top: 4rem;
   display: flex;
