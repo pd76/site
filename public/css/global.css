@@ -207,10 +207,6 @@ pre {
   padding: 0.5rem;
 }
 
-svg {
-  z-index: -1;
-}
-
 .paginator {
   padding-top: 4rem;
   display: flex;
@@ -222,6 +218,7 @@ svg {
 
 .back {
   position: sticky;
+  z-index: 5;
   top: 0;
   padding: 0.5rem;
   background: var(--dark);
